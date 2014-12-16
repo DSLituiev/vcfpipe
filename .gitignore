@@ -1,0 +1,5 @@
+variant_effect_predictor/*
+variant_effect_predictor/**/*
+**/*.txt
+**/*.db*
+**/*.csv

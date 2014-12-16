@@ -1,0 +1,14 @@
+
+
+FILENAME="/media/Processing/seq/data/MO7-rmdup-clipOverlap-q20-freebayes-ems-annotation"
+
+FILENAME="/media/Processing/seq/olddata/HL7_Paired-rmdup-clipOverlap-q20-freebayes-ems-annotation"
+
+FILENAME="/media/Processing/seq/olddata/HL10-rmdup-clipOverlap-q20-freebayes-ems-annotation"
+
+FILENAME="/media/Processing/seq/olddata/ABD159-rmdup-clipOverlap-q20-freebayes-ems-annotation"
+
+
+SCRPATH="/home/dima/scripts"
+python3.4 $SCRPATH/vcftocsv_python/trnslvcf.py $FILENAME.vcf $FILENAME.csv -a 1 -f 0.05 -u 2 -s "$SCRPATH/vcftocsv_python/SO_terms.csv"
+
